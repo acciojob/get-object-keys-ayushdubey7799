@@ -6,4 +6,3 @@ function studentInfo() {
 	return Object.keys(student);
 }
 student.__proto__.getKeys = studentInfo;
-studentInfo();
